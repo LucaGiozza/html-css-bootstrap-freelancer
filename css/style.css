@@ -6,7 +6,7 @@
 
 /* inizio navbar */
 
-.row{
+.row-navbar{
 height: 50px;
 background-color:lightblue;
 line-height:50px;
@@ -37,3 +37,34 @@ line-height:50px;
 }
 
 /* fine navbar */
+
+/* inizio header */
+.row-header{
+    
+    background-color: rgb(18, 190, 18);
+}
+.avatar{
+    height: 150px;
+}
+.title{
+    color: white;
+    
+}
+.player-bar{
+    width:70px;
+    height:2px;
+    border-radius:4px;
+    background-color:white;
+    cursor:pointer;
+    margin:0 10px
+}
+.star{
+    color:white;
+}
+.graphic{
+    color:white;
+    font-size: 12px;
+    margin-top: 2%;
+    margin-bottom:3%
+}
+
