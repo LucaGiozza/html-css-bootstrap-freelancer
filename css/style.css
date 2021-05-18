@@ -67,4 +67,31 @@ line-height:50px;
     margin-top: 2%;
     margin-bottom:3%
 }
+/* fine header */
 
+/* inizio main */
+
+.player-bar-main{
+    width:70px;
+    height:2px;
+    border-radius:4px;
+    background-color:black;
+    cursor:pointer;
+    margin:0 10px;
+    vertical-align: middle;
+}
+.star-main{
+    color:black;
+}
+
+.cartoline{
+    height: 100%;
+    width:100%;
+    
+
+}
+.sezione-immagini{
+   
+    max-width: 80%;
+    margin: auto; 
+}
