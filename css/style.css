@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* inizio navbar */
+
+.row{
+height: 50px;
+background-color:lightblue;
+line-height:50px;
+}
+.nav-text{
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+}
+.start{
+    cursor: pointer;
+}
+.lista{
+    display:flex;
+    list-style: none;
+    font-size: 12px;
+}
+.lista li{
+    cursor: pointer;
+}
+
+/* hover nav */
+.lista li:hover{
+    color: black;
+}
+.start:hover{
+    color: black;
+}
+
+/* fine navbar */
