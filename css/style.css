@@ -184,6 +184,7 @@ nav{
     background-color: rgb(32, 32, 121);
     
 }
+
 .footer-end{
     background-color: rgb(24, 24, 66);
     color: white;
@@ -193,4 +194,12 @@ nav{
 }
 h5{
     overflow: hidden;
+}
+
+p i{
+    padding:  10px;
+    border: 1px solid white;
+    margin-left: 10px;
+    font-size: 12px;
+    
 }
