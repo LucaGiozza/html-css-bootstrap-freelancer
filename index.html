@@ -13,22 +13,30 @@
 <body>
 
     <!-- inizio nav -->
-    <nav class="container-fluid">
-        <div class="row row-navbar ">
-            <div class="col-12">
-                <div class="nav-text lista text-uppercase">
-                    <span class="fs-6 start ">start Boostrap</span>
-                    <ul class="lista ">
-                        <li class="mx-3 lista-nav ">portfolio</li>
-                        <li class="mx-3">about</li>
-                        <li class="mx-3">contact</li>
-                    </ul>
-
-                </div>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Start Bootstrap</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav text-uppercase">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
         </div>
-
-    </nav>
+      </nav>
+   
+    
 
     <!-- fine nav -->
 
@@ -60,10 +68,10 @@
         <!-- prima sezione del main con immagini -->
         <section class="container-fluid">
              
-
+             <!-- row titolo portfolio -->
         
         <div class="row mt-5">
-            <div class="col-12 text-center">
+            <div class="col-12  text-center">
                 <h2 class="overflow-hidden">Portfolio</h2>
                 <div class="d-flex justify-content-center align-items-center ">
                     
@@ -76,27 +84,30 @@
             </div>
 
         </div>
+
+        <!-- fine titolo portfolio -->
+
           <!-- row con immagini -->
         <div class="row flex-wrap sezione-immagini g-4  ">
-            <div class="col-4">
+            <div class=" col-12 col-md-6 col-lg-4">
                 <img class="cartoline img-sx" src="img/cabin.png" alt="">
             </div>
-            <div class="col-4">
+            <div class=" col-12 col-md-6 col-lg-4">
                 <img class="cartoline" src="img/cake.png" alt="">
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 
                 <img class="cartoline img-dx" src="img/circus.png" alt="">
             </div>
-            <div class="col-4">
+            <div class=" col-12 col-md-6 col-lg-4">
                 <img class="cartoline img-sx" src="img/game.png" alt="">
                 
             </div>
-            <div class="col-4">
+            <div class=" col-12 col-md-6 col-lg-4">
                
                 <img class="cartoline" src="img/safe.png" alt="">
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <img class="cartoline img-dx" src="img/submarine.png" alt="">
                 
                 
@@ -124,10 +135,10 @@
          </div>
 
          <div class="row text-about m-auto pt-4 ">
-             <div class="col-6">
+             <div class="col-12 col-md-6 mb-3 ">
                Freelancer is a bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional Less stylesheets for easy customization.
              </div>
-             <div class="col-6">
+             <div class=" col-sm-12 col-md-6 ">
                  Wheter uou're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
 
             </div>
@@ -137,12 +148,78 @@
 
 
      </section>
-<!-- fine sezione del main About -->
+      <!-- fine sezione del main About -->
+      <!-- inizio sezione del main contatti -->
+      <section >
+          <div class="container mt-3">
+             <h4 class="contact-me ">Contact me</h4>
+            <div class="d-flex justify-content-center align-items-center mb-3">
+                    
+                <div class="player-bar-contatti"></div>
+                <span class="star-contatti"><i class="fas fa-star"></i></span>
+                <div class="player-bar-contatti"></div>
+            </div>
+            <div class="mb-3">
+             
+                <input type="email" class="form-control rettangolo" id="exampleFormControlInput1" placeholder="Name..">
+              </div>
+              <div class="mb-3">
+               
+                <input type="email" class="form-control rettangolo" id="exampleFormControlInput1" placeholder="Email-adress..">
+              </div>
+              <div class="mb-3">
+                
+                <input type="email" class="form-control rettangolo" id="exampleFormControlInput1" placeholder="Phone number..">
+              </div>
+              <div class="mb-3">
+                
+                <textarea class="form-control rettangolo" id="exampleFormControlTextarea1" placeholder="Message"></textarea> </textarea>
+                <p class="invio">Send</p>
+              </div>
+          </div>
+       
+    
+          
+
+      </section>
+      <!-- fine sezione del main contatti -->
 
 
 
     </main>
     <!-- fine main -->
+    <!-- inizio footer -->
+    <footer class="container-fluid footer-container  " >
+    <div class="footer-top ">
+        <div class="row footer-box text-center">
+            <div class=" col-12 col-md-4">
+              <h5>Location</h5>
+               <p>ciao ciao ciao</p>
+            </div>
+            <div class=" col-12 col-md-4">
+                <h5>Location</h5>
+                <p>ciao ciao ciao</p>
+            </div>
+            <div class=" col-12 col-md-4">
+                <h5>Location</h5>
+               <p>ciao ciao ciao</p>
+            </div>
+
+        </div>
+
+
+    </div>
+      
+    <div class="footer-bottom">
+        <div class="row">
+            <div class="col-12 footer-end text-center">
+                <p>copiright and ciaoo</p>
+            </div>
+        </div>
+
+    </div>
+
+    </footer>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>

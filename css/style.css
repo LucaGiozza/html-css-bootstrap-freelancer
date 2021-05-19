@@ -7,41 +7,26 @@
 
 /* inizio navbar */
 
-.row-navbar{
-height: 50px;
-background-color:lightblue;
-line-height: 50px;
-overflow: hidden;
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:white;
+}
+.navbar-light .navbar-brand{
+    color:white;
+}
+nav{
+    background-color: rgb(61, 61, 163);
+}
 
 
-}
-.nav-text{
-    display: flex;
-    justify-content: space-around;
-    color: gray;
-}
-.start{
-    cursor: pointer;
-    
-}
-.lista{
-    display:flex;
-    list-style: none;
-    font-size: 12px;
-    
-}
-.lista li{
-    cursor: pointer;
-}
+
 
 
 /* hover nav */
-.lista li:hover{
-    color: black;
-}
-.start:hover{
-    color: black;
-}
+
 
 /* fine navbar */
 
@@ -49,7 +34,7 @@ overflow: hidden;
 .row-header{
     overflow: hidden;
     
-    background-color: rgb(18, 190, 18);
+    background-color: rgb(80, 193, 231);
 }
 .avatar{
     height: 150px;
@@ -146,4 +131,66 @@ overflow: hidden;
 }
 .download:hover{
     opacity: 0.5;
+}
+
+/* inizio sezione contatti del main */
+
+.player-bar-contatti{
+    width:70px;
+    height:2px;
+    border-radius:4px;
+    background-color: black;
+    cursor:pointer;
+    margin:0 10px;
+    vertical-align: middle;
+}
+.star-contatti{
+    color:black;
+}
+.contact-me{
+    text-align: center;
+    overflow: hidden;
+    
+
+}
+.rettangolo{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.invio{
+    background-color:lightgreen;
+    width: 9%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+/* inizio footer */
+.footer-box{
+    max-width: 80%;
+    margin:auto;
+    color: white;
+    
+    
+}
+.footer-container{
+    padding:0;
+}
+.footer-top{
+    background-color: rgb(32, 32, 121);
+    
+}
+.footer-end{
+    background-color: rgb(24, 24, 66);
+    color: white;
+}
+.footer-end{
+
+}
+h5{
+    overflow: hidden;
 }
